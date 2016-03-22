@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ascii"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <!-- Changelog -->
+ <id>https://riverbankcomputing.com/hg/sip/</id>
+ <link rel="self" href="https://riverbankcomputing.com/hg/sip/atom-log"/>
+ <link rel="alternate" href="https://riverbankcomputing.com/hg/sip/"/>
+ <title>sip Changelog</title>
+ <updated>2015-12-02T23:06:20+00:00</updated>
+
+ <entry>
+  <title>Fixed the previous fix.</title>
+  <id>https://riverbankcomputing.com/hg/sip/#changeset-17876e15c41dccdb83b1f92ebd4bc550fb7e5d77</id>
+  <link href="https://riverbankcomputing.com/hg/sip/rev/17876e15c41d"/>
+  <author>
+   <name>Phil Thompson</name>
+   <email>&#112;&#104;&#105;&#108;&#64;&#114;&#105;&#118;&#101;&#114;&#98;&#97;&#110;&#107;&#99;&#111;&#109;&#112;&#117;&#116;&#105;&#110;&#103;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2015-12-02T23:06:20+00:00</updated>
+  <published>2015-12-02T23:06:20+00:00</published>
+  <content type="xhtml">
+   <div xmlns="http://www.w3.org/1999/xhtml">
+    <pre xml:space="preserve">Fixed the previous fix.</pre>
+   </div>
+  </content>
+ </entry>
+ <entry>
+  <title>Restrict the invocation of sub-class convertors to those that handle direct</title>
+  <id>https://riverbankcomputing.com/hg/sip/#changeset-57cbe5142d57330198536a1c3cba9772239255f3</id>
+  <link href="https://riverbankcomputing.com/hg/sip/rev/57cbe5142d57"/>
+  <author>
+   <name>Phil Thompson</name>
+   <email>&#112;&#104;&#105;&#108;&#64;&#114;&#105;&#118;&#101;&#114;&#98;&#97;&#110;&#107;&#99;&#111;&#109;&#112;&#117;&#116;&#105;&#110;&#103;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2015-11-25T15:50:16+00:00</updated>
+  <published>2015-11-25T15:50:16+00:00</published>
+  <content type="xhtml">
+   <div xmlns="http://www.w3.org/1999/xhtml">
+    <pre xml:space="preserve">Restrict the invocation of sub-class convertors to those that handle direct
+sub-classes.</pre>
+   </div>
+  </content>
+ </entry>
+ <entry>
+  <title>Invoking sub-class convertor code turns out to be quite expensive so check the</title>
+  <id>https://riverbankcomputing.com/hg/sip/#changeset-77fde6c0ee2d0409509414583b4ddd1b4db1326a</id>
+  <link href="https://riverbankcomputing.com/hg/sip/rev/77fde6c0ee2d"/>
+  <author>
+   <name>Phil Thompson</name>
+   <email>&#112;&#104;&#105;&#108;&#64;&#114;&#105;&#118;&#101;&#114;&#98;&#97;&#110;&#107;&#99;&#111;&#109;&#112;&#117;&#116;&#105;&#110;&#103;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2015-10-28T05:07:44+00:00</updated>
+  <published>2015-10-28T05:07:44+00:00</published>
+  <content type="xhtml">
+   <div xmlns="http://www.w3.org/1999/xhtml">
+    <pre xml:space="preserve">Invoking sub-class convertor code turns out to be quite expensive so check the
+object map first.  Check the object map again if the convertor code needed to
+be invoked.  This change is absolutely fundamental to the inner workings so may
+have some unexpected consequences.</pre>
+   </div>
+  </content>
+ </entry>
+ <entry>
+  <title>Refactored the handling of casts so that cast functions are only generated for</title>
+  <id>https://riverbankcomputing.com/hg/sip/#changeset-14bfbaf7431acc2a431e9606b5ac6bb525765031</id>
+  <link href="https://riverbankcomputing.com/hg/sip/rev/14bfbaf7431a"/>
+  <author>
+   <name>Phil Thompson</name>
+   <email>&#112;&#104;&#105;&#108;&#64;&#114;&#105;&#118;&#101;&#114;&#98;&#97;&#110;&#107;&#99;&#111;&#109;&#112;&#117;&#116;&#105;&#110;&#103;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2015-10-27T23:10:48+00:00</updated>
+  <published>2015-10-27T23:10:48+00:00</published>
+  <content type="xhtml">
+   <div xmlns="http://www.w3.org/1999/xhtml">
+    <pre xml:space="preserve">Refactored the handling of casts so that cast functions are only generated for
+classes that multiply inherit somewhere in their class hierarchy.</pre>
+   </div>
+  </content>
+ </entry>
+ <entry>
+  <title>Added tag 4.17 for changeset 0cbb680b4f69</title>
+  <id>https://riverbankcomputing.com/hg/sip/#changeset-36d16e74cf7fa7bd9f7b46a36dbf044c23e86471</id>
+  <link href="https://riverbankcomputing.com/hg/sip/rev/36d16e74cf7f"/>
+  <author>
+   <name>Phil Thompson</name>
+   <email>&#112;&#104;&#105;&#108;&#64;&#114;&#105;&#118;&#101;&#114;&#98;&#97;&#110;&#107;&#99;&#111;&#109;&#112;&#117;&#116;&#105;&#110;&#103;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2015-10-24T13:21:39+01:00</updated>
+  <published>2015-10-24T13:21:39+01:00</published>
+  <content type="xhtml">
+   <div xmlns="http://www.w3.org/1999/xhtml">
+    <pre xml:space="preserve">Added tag 4.17 for changeset 0cbb680b4f69</pre>
+   </div>
+  </content>
+ </entry>
+ <entry>
+  <title>Released as v4.17.</title>
+  <id>https://riverbankcomputing.com/hg/sip/#changeset-0cbb680b4f696ac23a00a7fb1a922ef62af0bbd3</id>
+  <link href="https://riverbankcomputing.com/hg/sip/rev/0cbb680b4f69"/>
+  <author>
+   <name>Phil Thompson</name>
+   <email>&#112;&#104;&#105;&#108;&#64;&#114;&#105;&#118;&#101;&#114;&#98;&#97;&#110;&#107;&#99;&#111;&#109;&#112;&#117;&#116;&#105;&#110;&#103;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2015-10-24T13:21:31+01:00</updated>
+  <published>2015-10-24T13:21:31+01:00</published>
+  <content type="xhtml">
+   <div xmlns="http://www.w3.org/1999/xhtml">
+    <pre xml:space="preserve">Released as v4.17.</pre>
+   </div>
+  </content>
+ </entry>
+ <entry>
+  <title>Fix extensions that use Python v3.5 slots but are being built with an earlier</title>
+  <id>https://riverbankcomputing.com/hg/sip/#changeset-9102d6c3daf05bef9ea9c4c07eccaef2af5fb0a1</id>
+  <link href="https://riverbankcomputing.com/hg/sip/rev/9102d6c3daf0"/>
+  <author>
+   <name>Phil Thompson</name>
+   <email>&#112;&#104;&#105;&#108;&#64;&#114;&#105;&#118;&#101;&#114;&#98;&#97;&#110;&#107;&#99;&#111;&#109;&#112;&#117;&#116;&#105;&#110;&#103;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2015-09-10T13:25:50+01:00</updated>
+  <published>2015-09-10T13:25:50+01:00</published>
+  <content type="xhtml">
+   <div xmlns="http://www.w3.org/1999/xhtml">
+    <pre xml:space="preserve">Fix extensions that use Python v3.5 slots but are being built with an earlier
+version.</pre>
+   </div>
+  </content>
+ </entry>
+ <entry>
+  <title>Tweak win32-msvc2015 to suppress a warning message.</title>
+  <id>https://riverbankcomputing.com/hg/sip/#changeset-74754ca3e59ffca4cd9fbfffb3749442f15769d6</id>
+  <link href="https://riverbankcomputing.com/hg/sip/rev/74754ca3e59f"/>
+  <author>
+   <name>Phil Thompson</name>
+   <email>&#112;&#104;&#105;&#108;&#64;&#114;&#105;&#118;&#101;&#114;&#98;&#97;&#110;&#107;&#99;&#111;&#109;&#112;&#117;&#116;&#105;&#110;&#103;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2015-09-08T12:27:25+01:00</updated>
+  <published>2015-09-08T12:27:25+01:00</published>
+  <content type="xhtml">
+   <div xmlns="http://www.w3.org/1999/xhtml">
+    <pre xml:space="preserve">Tweak win32-msvc2015 to suppress a warning message.</pre>
+   </div>
+  </content>
+ </entry>
+ <entry>
+  <title>Added win32-msvc2015 to the build system.</title>
+  <id>https://riverbankcomputing.com/hg/sip/#changeset-fca4f2fcbb393a5971f5fd503a2227a38b8e3468</id>
+  <link href="https://riverbankcomputing.com/hg/sip/rev/fca4f2fcbb39"/>
+  <author>
+   <name>Phil Thompson</name>
+   <email>&#112;&#104;&#105;&#108;&#64;&#114;&#105;&#118;&#101;&#114;&#98;&#97;&#110;&#107;&#99;&#111;&#109;&#112;&#117;&#116;&#105;&#110;&#103;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2015-09-08T10:39:44+01:00</updated>
+  <published>2015-09-08T10:39:44+01:00</published>
+  <content type="xhtml">
+   <div xmlns="http://www.w3.org/1999/xhtml">
+    <pre xml:space="preserve">Added win32-msvc2015 to the build system.</pre>
+   </div>
+  </content>
+ </entry>
+ <entry>
+  <title>Added a comment about adding new slot types and its effect on the ABI.</title>
+  <id>https://riverbankcomputing.com/hg/sip/#changeset-50af972e16523e8405f1216b518b55527261dec7</id>
+  <link href="https://riverbankcomputing.com/hg/sip/rev/50af972e1652"/>
+  <author>
+   <name>Phil Thompson</name>
+   <email>&#112;&#104;&#105;&#108;&#64;&#114;&#105;&#118;&#101;&#114;&#98;&#97;&#110;&#107;&#99;&#111;&#109;&#112;&#117;&#116;&#105;&#110;&#103;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2015-09-03T09:06:45+01:00</updated>
+  <published>2015-09-03T09:06:45+01:00</published>
+  <content type="xhtml">
+   <div xmlns="http://www.w3.org/1999/xhtml">
+    <pre xml:space="preserve">Added a comment about adding new slot types and its effect on the ABI.</pre>
+   </div>
+  </content>
+ </entry>
+
+</feed>
